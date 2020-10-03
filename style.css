@@ -7,20 +7,34 @@ body {
 }
 
 .bottom-text {
-    position:absolute;
+    position: relative;
     bottom:0;
-    right:50%;
-    margin-left: -50%;
-}
-a { 
-    color: inherit; 
-} 
-
-a:visited {
-    text-decoration:none;
+    text-align:center;
 }
 
-a:hover {
-    text-decoration:none;
-    color:blue;
+.fa-envelope {
+    color:#A9A9A9;
+    padding:15px;
+}
+
+.fa-envelope:hover {
+    color:#211f1f;
+}
+
+.fa-linkedin {
+    color:#0e76a8;
+    padding:15px;
+}
+
+.fa-linkedin:hover {
+    color:#3386ff;
+}
+
+.fa-github {
+    color:#211f1f;
+    padding:15px;
+}
+
+.fa-github:hover {
+    color:#A9A9A9;
 }
